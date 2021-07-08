@@ -23,18 +23,18 @@ SAMPLE OUTPUT:
 $8.00
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int age; float timing;
-  cin >> age >> timing;
+    int age; float timing;
+    cin >> age >> timing;
 
-  int price;
-  if (age > 13)
-    price = (timing<12)?(8):(5);
-  else
-    price = (timing<12)?(4):(2);
-  cout << "$" << price << ".00";
+    int price;
+    if (age>13)
+        price = (timing<12)?(8):(5);
+    else
+        price = (timing<12)?(4):(2);
+    cout << "$" << price << ".00";
 }

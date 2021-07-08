@@ -15,20 +15,20 @@ SAMPLE OUTPUT:
 2016 is a leap year
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int y;
-  cin >> y;
+    int y;
+    cin >> y;
 
-  bool leap = true;
-  if (y%4 != 0)
-    leap = false;
-  else if (y%400 == 0)
-    leap = true;
-  else if (y%100 == 4)
-    leap = false;
-  cout << y << " is " << ((leap)?(""):("not ")) << "a leap year";
+    bool leap = true;
+    if (y%4 != 0)
+        leap = false;
+    else if (y%400 == 0)
+        leap = true;
+    else if (y%100 == 4)
+        leap = false;
+    cout << y << " is " << ((leap)?(""):("not ")) << "a leap year";
 }

@@ -34,11 +34,11 @@ using namespace std;
 
 int main()
 {
-  int r, c, n;
-  cin >> r >> c >> n;
+  	int r, c, n;
+  	cin >> r >> c >> n;
 
-  if ((n>0 && n<=c) || (n%c==1) || (n%c==0))
-    cout << "Yes";
-  else
-  	cout << "No";
+  	if ((n>0 && n<=c) || (n%c==1) || (n%c==0))
+  	  	cout << "Yes";
+  	else
+  	  	cout << "No";
 }

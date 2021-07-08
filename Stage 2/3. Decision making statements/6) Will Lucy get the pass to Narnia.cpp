@@ -29,11 +29,11 @@ int main()
 
   	switch (z)
     {
-      case 1: cout << x+y; break;
-      case 2: cout << x-y; break;
-      case 3: cout << x*y; break;
-      case 4: cout << x/y; break;
-      case 5: cout << x%y; break;
-      default: cout << "Invalid operation";
+        case 1: cout << x+y; break;
+        case 2: cout << x-y; break;
+        case 3: cout << x*y; break;
+        case 4: cout << x/y; break;
+        case 5: cout << x%y; break;
+        default: cout << "Invalid operation";
     }
 }

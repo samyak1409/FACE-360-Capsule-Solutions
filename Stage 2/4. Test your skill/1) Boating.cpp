@@ -23,17 +23,17 @@ SAMPLE OUTPUT:
 Boat is stable
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int b, a, c;
-  cin >> b >> a >> c;
+    int b, a, c;
+    cin >> b >> a >> c;
 
-  int w = 75*a + 30*c;
-  if (w > b)
-    cout << "Boat will drow";
-  else
-    cout << "Boat is stable";
+    int w = 75*a + 30*c;
+    if (w>b)
+        cout << "Boat will drow";
+    else
+        cout << "Boat is stable";
 }

@@ -21,14 +21,14 @@ SAMPLE OUTPUT:
 6
 */
 
-# include <iostream>
-# include <math.h>
+#include <iostream>
+#include <math.h>
 using namespace std;
 
 int main()
 {
-  float x, y;
-  cin >> x >> y;
+    float x, y;
+    cin >> x >> y;
 
-  cout << int(pow(pow(x-3, 2.0) + pow(y-4, 2.0), 0.5));
+    cout << int(pow(pow(x-3, 2.0) + pow(y-4, 2.0), 0.5));
 }

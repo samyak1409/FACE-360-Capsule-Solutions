@@ -25,23 +25,23 @@ SAMPLE OUTPUT:
 7.50
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int n; float uht;  // number, unit heating time
-  cin >> n >> uht;
+    int n; float uht;  // number, unit heating time
+    cin >> n >> uht;
 
-  if (n < 4)
-  {
-    float rht = uht;  // recommended heating time
-    if (n == 2)
-      rht += rht / 2;
-    else if (n == 3)
-      rht *= 2;
-    cout << rht;
-  }
-  else
-    cout << "Number of items is more";
+    if (n<4)
+    {
+        float rht = uht;  // recommended heating time
+        if (n == 2)
+            rht += rht / 2;
+        else if (n == 3)
+            rht *= 2;
+        cout << rht;
+    }
+    else
+        cout << "Number of items is more";
 }

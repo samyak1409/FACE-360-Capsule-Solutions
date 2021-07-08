@@ -15,13 +15,13 @@ SAMPLE OUTPUT:
 8
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  cout << sizeof(char) << endl;
-  cout << sizeof(int) << endl;
-  cout << sizeof(float) << endl;
-  cout << sizeof(double) << endl;
+    cout << sizeof(char) << endl;
+    cout << sizeof(int) << endl;
+    cout << sizeof(float) << endl;
+    cout << sizeof(double) << endl;
 }

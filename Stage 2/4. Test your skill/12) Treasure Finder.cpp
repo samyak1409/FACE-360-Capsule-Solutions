@@ -19,40 +19,40 @@ The treasure is in the box which has number 4.
 The code to open the box is 2.
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int a, b, c;
-  cin >> a >> b >> c;
+    int a, b, c;
+    cin >> a >> b >> c;
 
-  int s, m, l;  // finding smallest, mid, largest
-  if (a<b && a<c)
-  {
-    s = a;
-  	if (b<c) m = b, l = c;
-  	else m = c, l = b;
-  }
-  else if (b<c)
-  {
-    s = b;
-  	if (a<c) m = a, l = c;
-  	else m = c, l = a;
-  }
-  else
-  {
-    s = c;
-  	if (a<b) m = a, l = b;
-  	else m = b, l = a;
-  }
+    int s, m, l;  // finding smallest, mid, largest
+    if (a<b && a<c)
+    {
+        s = a;
+        if (b<c) m = b, l = c;
+        else m = c, l = b;
+    }
+    else if (b<c)
+    {
+        s = b;
+        if (a<c) m = a, l = c;
+        else m = c, l = a;
+    }
+    else
+    {
+        s = c;
+  	  	if (a<b) m = a, l = b;
+  	  	else m = b, l = a;
+  	}
 
-  int d;
-  if (m%s==0 && l%s==0)  // checking if smallest value dividing all or not
-    d = s;
-  else
-    d = 1;
+  	int d;
+  	if (m%s==0 && l%s==0)  // checking if smallest value dividing all or not
+  	  	d = s;
+  	else
+  	  	d = 1;
 
-  cout << "The treasure is in box which has number " << m << endl;
-  cout << "The code to open the box is " << d;
+  	cout << "The treasure is in box which has number " << m << endl;
+  	cout << "The code to open the box is " << d;
 }

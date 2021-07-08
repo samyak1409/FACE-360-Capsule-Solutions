@@ -17,12 +17,12 @@ Sample Output:
 4.3
 */
 
-# include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  float cgpa;
-  cin >> cgpa;
-  cout << cgpa;
+    float cgpa;
+    cin >> cgpa;
+    cout << cgpa;
 }

@@ -25,16 +25,16 @@ SAMPLE OUTPUT:
 38
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int x, y;
-  cin >> x >> y;
+    int x, y;
+    cin >> x >> y;
 
-  if (x > y)
-  	cout << y+100-x;
-  else
-    cout << y-x;
+    if (x>y)
+        cout << y+100-x;
+    else
+        cout << y-x;
 }

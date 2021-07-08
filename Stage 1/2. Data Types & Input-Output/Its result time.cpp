@@ -3,12 +3,12 @@ Arundhathi is a very brilliant girl. She has completed her Mathemtics exam. Math
 He needs to provide the id of a student and his/ her mark along with that.
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int id, tm;
-  cin >> id >> tm;
-  cout << "Id : " << id << "\nTotalmarks : " << tm;
+    int id, tm;
+    cin >> id >> tm;
+    cout << "Id : " << id << "\nTotalmarks : " << tm;
 }

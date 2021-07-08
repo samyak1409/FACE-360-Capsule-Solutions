@@ -21,24 +21,24 @@ SAMPLE OUTPUT:
 Left Handed
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  string door; int rail;
-  cin >> door >> rail;
+  	string door; int rail;
+  	cin >> door >> rail;
 
-  string hand;
-  if (door == "front")
-  {
-    if (rail == 1) hand = "Left";
-    else hand = "Right";
-  }
-  else
-  {
-    if (rail == 1) hand = "Right";
-    else hand = "Left";
-  }
-  cout << hand << " Handed";
+  	string hand;
+  	if (door == "front")
+  	{
+  	  	if (rail == 1) hand = "Left";
+  	  	else hand = "Right";
+  	}
+  	else
+  	{
+  	  	if (rail == 1) hand = "Right";
+  	  	else hand = "Left";
+  	}
+  	cout << hand << " Handed";
 }

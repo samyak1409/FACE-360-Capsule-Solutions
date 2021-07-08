@@ -3,17 +3,17 @@ Ashna is a third grade school going school.Miss Benzy is a very strict teacher a
 The input should consist of two integers.
 */
 
-# include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int a, b;
-  cin >> a >> b;
+    int a, b;
+    cin >> a >> b;
 
-  cout << "a+b=" << a+b << '\n';
-  cout << "a-b=" << a-b << '\n';
-  cout << "a*b=" << a*b << '\n';
-  cout << "a/b=" << a/b << '\n';
-  cout << "a%b=" << a%b << '\n';
+    cout << "a+b=" << a+b << endl;
+    cout << "a-b=" << a-b << endl;
+    cout << "a*b=" << a*b << endl;
+    cout << "a/b=" << a/b << endl;
+    cout << "a%b=" << a%b << endl;
 }

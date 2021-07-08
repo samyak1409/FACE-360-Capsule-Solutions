@@ -25,13 +25,13 @@ SAMPLE OUTPUT:
 Cannot reach
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int x, y, z;
-  cin >> x >> y >> z;
+    int x, y, z;
+    cin >> x >> y >> z;
 
-  cout << "Can" << ((x*y>=z)?(""):("not")) << " reach";
+    cout << "Can" << ((x*y>=z)?(""):("not")) << " reach";
 }

@@ -35,25 +35,25 @@ In Amazon: Rs.920
 He will prefer Snapdeal
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int fa, fd, fs, sa, sd, ss, aa, ad, as;
-  cin >> fa >> fd >> fs >> sa >> sd >> ss >> aa >> ad >> as;
+    int fa, fd, fs, sa, sd, ss, aa, ad, as;
+    cin >> fa >> fd >> fs >> sa >> sd >> ss >> aa >> ad >> as;
 
-  int f = fa*((100-fd)*.01) + fs;
-  int s = sa*((100-sd)*.01) + ss;
-  int a = aa*((100-ad)*.01) + as;
-  cout << "In Flipkart Rs." << f << endl;
-  cout << "In Snapdeal Rs." << s << endl;
-  cout << "In Amazon Rs." << a << endl;
+    int f = fa*((100-fd)*.01) + fs;
+    int s = sa*((100-sd)*.01) + ss;
+    int a = aa*((100-ad)*.01) + as;
+    cout << "In Flipkart Rs." << f << endl;
+    cout << "In Snapdeal Rs." << s << endl;
+    cout << "In Amazon Rs." << a << endl;
 
-  string pref = "Flipkart";
-  if (s < f && s < a)
-    pref = "Snapdeal";
-  else if (a < f && a < s)
-    pref = "Amazon";
-  cout << "He will prefer " << pref;
+    string pref = "Flipkart";
+    if (s<f && s<a)
+        pref = "Snapdeal";
+    else if (a<f && a<s)
+        pref = "Amazon";
+    cout << "He will prefer " << pref;
 }

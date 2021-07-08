@@ -29,22 +29,22 @@ SAMPLE OUTPUT:
 Eligible to Win
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int total_balls, target, scored, balls_bowled;
-  cin >> total_balls >> target >> scored >> balls_bowled;
+    int total_balls, target, scored, balls_bowled;
+    cin >> total_balls >> target >> scored >> balls_bowled;
 
-  float total_overs = total_balls/6;
-  float overs_bowled = balls_bowled/6 + (balls_bowled%6)*.1;
-  float cur_run_rate = scored/overs_bowled;
-  float req_run_rate = target/total_overs;
-  cout << total_overs << endl;
-  cout << overs_bowled << endl;
-  printf("%.1f \n", cur_run_rate);
-  printf("%.1f \n", req_run_rate);
+    float total_overs = total_balls/6;
+    float overs_bowled = balls_bowled/6 + (balls_bowled%6)*.1;
+    float cur_run_rate = scored/overs_bowled;
+    float req_run_rate = target/total_overs;
+    cout << total_overs << endl;
+    cout << overs_bowled << endl;
+    printf("%.1f \n", cur_run_rate);
+    printf("%.1f \n", req_run_rate);
 
-  cout << ((cur_run_rate<req_run_rate)?("Not "):("")) << "Eligible to Win";
+    cout << ((cur_run_rate<req_run_rate)?("Not "):("")) << "Eligible to Win";
 }

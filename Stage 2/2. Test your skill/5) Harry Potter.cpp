@@ -17,15 +17,15 @@ SAMPLE OUTPUT:
 2
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int x;
-  cin >> x;
+    int x;
+    cin >> x;
 
-  int right = x % 10;
-  int left = x / 1000;
-  cout << left + right;
+    int right = x % 10;
+    int left = x / 1000;
+    cout << left + right;
 }

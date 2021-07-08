@@ -28,12 +28,11 @@ using namespace std;
 
 int main()
 {
-  int r, c, n;
-  cin >> r >> c >> n;
+    int r, c, n;
+    cin >> r >> c >> n;
 
-  if ((r < n && n <= 2*r) || ((c-2)*r < n && n <= (c-1)*r))
-    cout << "It is a mango tree";
-  else
-  	cout << "It is not a mango tree";
-  return 0;
+    if ((r<n && n<=2*r) || ((c-2)*r<n && n<=(c-1)*r))
+        cout << "It is a mango tree";
+    else
+        cout << "It is not a mango tree";
 }

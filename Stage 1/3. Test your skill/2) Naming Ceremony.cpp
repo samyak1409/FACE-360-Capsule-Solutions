@@ -19,12 +19,12 @@ Sample Output:
 Harry
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  string name;
-  cin >> name;
-  cout << name;
+    string name;
+    cin >> name;
+    cout << name;
 }

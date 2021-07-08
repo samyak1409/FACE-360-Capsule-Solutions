@@ -13,13 +13,13 @@ SAMPLE INPUT & OUTPUT:
 Odd
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int x;
-  cin >> x;
+    int x;
+    cin >> x;
 
-  cout << ((x%2==0)?("Even"):("Odd"));
+    cout << ((x%2==0)?("Even"):("Odd"));
 }

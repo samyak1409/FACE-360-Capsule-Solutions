@@ -25,13 +25,13 @@ SAMPLE OUTPUT:
 900
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int w, x, y;
-  cin >> w >> x >> y;
+    int w, x, y;
+    cin >> w >> x >> y;
 
-  cout << (x-y) * w - 100;
+    cout << (x-y) * w - 100;
 }

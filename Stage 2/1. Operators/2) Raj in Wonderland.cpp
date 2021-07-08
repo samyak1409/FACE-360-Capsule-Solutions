@@ -5,13 +5,13 @@ The input should be an integer. The output should be either Possible or Not poss
 [Hint : Use ternary operator]
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int n;
-  cin >> n;
+    int n;
+    cin >> n;
 
-  cout<<((n%2 == 0)?("Possible"):("Not possible"));
+    cout << ((n%2 == 0)?("Possible"):("Not possible"));
 }

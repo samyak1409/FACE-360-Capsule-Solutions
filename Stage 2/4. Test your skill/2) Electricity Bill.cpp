@@ -19,23 +19,23 @@ SAMPLE OUTPUT:
 Rs.100
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int u;
-  cin >> u;
+    int u;
+    cin >> u;
 
-  float c;
-  int e = 0;
-  if (u <= 200)
-    c = 0.5;
-  else if (u <= 400)
-    c = 0.65, e = 100;
-  else if (u <= 600)
-    c = 0.8, e = 200;
-  else
-    c = 1.25, e = 425;
-  cout << "Rs." << int(u*c + e);
+    float c;
+    int e = 0;
+    if (u <= 200)
+        c = 0.5;
+    else if (u <= 400)
+        c = 0.65, e = 100;
+    else if (u <= 600)
+        c = 0.8, e = 200;
+    else
+        c = 1.25, e = 425;
+    cout << "Rs." << int(u*c + e);
 }

@@ -43,14 +43,14 @@ SAMPLE OUTPUT:
 109.8
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int x, y, r;
-  cin >> x >> r >> y;
+    int x, y, r;
+    cin >> x >> r >> y;
 
-  float i = x * y * r / 100, d = i * 0.02, a = x+i;
-  cout << i << endl << a << endl << d << endl << a-d;
+    float i = x * y * r / 100, d = i * 0.02, a = x + i;
+    cout << i << endl << a << endl << d << endl << a-d;
 }
