@@ -4,6 +4,7 @@ The first line consists of a choice which is an integer to choose from 1 to 3. C
 */
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 struct ComplexNumber
@@ -29,5 +30,5 @@ int main()
         default:
         cout << "Invalid choice"; return 0;
     }
-    cout << c.a << (c.b>=0? "+" : "") << c.b << 'i';
+    cout << c.a << showpos << c.b << 'i';  // (shows positive sign)
 }
